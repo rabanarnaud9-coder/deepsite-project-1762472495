@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affaire Farid Menouk - Dossier complet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .header-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1575505586569-646b2ca898fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .fact-box {
+            border-left: 4px solid #3b82f6;
+            background-color: #f0f9ff;
+        }
+        .timeline-item {
+            position: relative;
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        .timeline-item:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            background: #3b82f6;
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-newspaper text-blue-600 text-2xl"></i>
+                <span class="text-xl font-bold text-gray-800">InfoJustice</span>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="#" class="text-gray-700 hover:text-blue-600">Accueil</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Faits divers</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Justice</a>
+                <a href="#" class="text-gray-700 hover:text-blue-600">Société</a>
+            </div>
+            <button class="md:hidden text-gray-700">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header-bg text-white py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Affaire Farid Menouk</h1>
+            <p class="text-xl mb-6">L'ascension et la chute d'un homme impliqué dans un vaste trafic de cocaïne</p>
+            <div class="text-sm opacity-80">
+                <i class="fas fa-calendar-alt mr-1"></i> Mis à jour le 15 juin 2023
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-12 max-w-4xl">
+        <!-- Disclaimer -->
+        <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4 mb-8">
+            <div class="flex">
+                <div class="flex-shrink-0">
+                    <i class="fas fa-exclamation-triangle text-yellow-400"></i>
+                </div>
+                <div class="ml-3">
+                    <p class="text-sm text-yellow-700">
+                        Cet article relate des faits judiciaires avérés. Toute personne citée est présumée innocente tant que sa culpabilité n'a pas été établie par la justice.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Introduction -->
+        <section class="mb-12">
+            <p class="text-lg text-gray-700 mb-6">
+                L'affaire Farid Menouk a défrayé la chronique judiciaire ces dernières années. Cet homme, originaire de la région parisienne, s'est retrouvé au cœur d'une vaste enquête sur le trafic international de cocaïne. Retour sur une affaire complexe qui illustre les mécanismes des réseaux criminels.
+            </p>
+            
+            <div class="fact-box p-4 rounded mb-6">
+                <h3 class="font-semibold text-blue-700 mb-2">
+                    <i class="fas fa-info-circle mr-2"></i> Chiffres clés
+                </h3>
+                <ul class="grid md:grid-cols-3 gap-4 text-sm">
+                    <li class="bg-white p-3 rounded shadow-sm">
+                        <div class="font-bold text-blue-600">Années d'activité</div>
+                        <div>2015-2020</div>
+                    </li>
+                    <li class="bg-white p-3 rounded shadow-sm">
+                        <div class="font-bold text-blue-600">Quantité saisie</div>
+                        <div>Plus de 200 kg</div>
+                    </li>
+                    <li class="bg-white p-3 rounded shadow-sm">
+                        <div class="font-bold text-blue-600">Pays impliqués</div>
+                        <div>France, Espagne, Pays-Bas</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Timeline -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 border-b pb-2">Chronologie des événements</h2>
+            
+            <div class="space-y-6">
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg">2015 - Débuts dans le trafic</h3>
+                    <p class="text-gray-600">
+                        Selon les enquêteurs, Farid Menouk aurait commencé son activité dans le trafic de stupéfiants par de petites livraisons locales avant de gravir les échelons.
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg">2018 - Montée en puissance</h3>
+                    <p class="text-gray-600">
+                        L'homme établit des contacts internationaux et participe à l'importation de cocaïne depuis l'Amérique du Sud via l'Espagne. Son réseau s'étend à plusieurs régions françaises.
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg">Mars 2020 - Arrestation</h3>
+                    <p class="text-gray-600">
+                        Interpellé lors d'une opération conjointe des services de police et de douanes, Farid Menouk est placé en détention provisoire. Des importantes quantités de drogue et des armes sont saisies.
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg">2022 - Procès</h3>
+                    <p class="text-gray-600">
+                        Le procès met en lumière l'ampleur du réseau et les méthodes employées. Farid Menouk est reconnu coupable de trafic international de stupéfiants en bande organisée.
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3 class="font-semibold text-lg">2023 - Condamnation</h3>
+                    <p class="text-gray-600">
+                        La cour d'appel confirme la peine de 12 ans de prison prononcée en première instance, ainsi qu'une amende de 500 000 euros.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Investigation -->
+        <section class="mb-12">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 border-b pb-2">L'enquête en détail</h2>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-semibold text-lg mb-3 flex items-center">
+                        <i class="fas fa-search mr-2 text-blue-600"></i> Méthodes d'investigation
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        L'enquête a mobilisé pendant plusieurs mois les services spécialisés. Les méthodes employées ont inclus :
+                    </p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Surveillance des communications téléphoniques</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Filatures des principaux suspects</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Analyse financière des flux suspects</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-blue-500 mt-1 mr-2"></i>
+                            <span>Coopération internationale via Europol</span>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-sm">
+                    <h3 class="font-semibold text-lg mb-3 flex items-center">
+                        <i class="fas fa-balance-scale mr-2 text-blue-600"></i> Aspects juridiques
+                    </h3>
+                    <p class="text-gray-600 mb-4">
+                        L'affaire a soulevé plusieurs questions juridiques complexes :
+                    </p>
+                    <ul class="space-y-2 text-gray-600 text-sm">
+                        <li class="flex items-start">
+                            <i class="fas fa-gavel text-blue-500 mt-1 mr-2"></i>
+                            <span>Qualification de bande organisée</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gavel text-blue-500 mt-1 mr-2"></i>
+                            <span>Responsabilité des intermédiaires</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gavel text-blue-500 mt-1 mr-2"></i>
+                            <span>Blanchiment des bénéfices criminels</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-gavel text-blue-500 mt-1 mr-2"></i>
+                            <span>Application des peines plancher</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Prevention -->
+        <section class="bg-blue-50 p-6 rounded-lg mb-12">
+            <h2 class="text-xl font-semibold text-blue-800 mb-4">
+                <i class="fas fa-exclamation-circle mr-2"></i> Prévention et alternatives
+            </h2>
+            <p class="text-gray-700 mb-4">
+                Si vous ou un proche êtes confronté à des problèmes de drogue, des solutions existent :
+            </p>
+            <div class="grid md:grid-cols-3 gap-4 text-sm">
+                <a href="#" class="bg-white p-3 rounded shadow-sm hover:bg-blue-100 transition">
+                    <div class="font-bold text-blue-600">Drogues Info Service</div>
+                    <div class="text-gray-600">0 800 23 13 13 (gratuit)</div>
+                </a>
+                <a href="#" class="bg-white p-3 rounded shadow-sm hover:bg-blue-100 transition">
+                    <div class="font-bold text-blue-600">CSAPA</div>
+                    <div class="text-gray-600">Centres de soins spécialisés</div>
+                </a>
+                <a href="#" class="bg-white p-3 rounded shadow-sm hover:bg-blue-100 transition">
+                    <div class="font-bold text-blue-600">ANPAA</div>
+                    <div class="text-gray-600">Association nationale de prévention</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section>
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Analyse de l'affaire</h2>
+            <p class="text-gray-700 mb-4">
+                L'affaire Farid Menouk illustre les mécanismes des réseaux de trafic de drogue en France. Selon les experts consultés, elle montre comment des individus peuvent rapidement graviter dans ces milieux, attirés par les gains faciles, avant de se retrouver pris dans un engrenage dont il est difficile de sortir.
+            </p>
+            <blockquote class="border-l-4 border-blue-500 pl-4 italic text-gray-600 mb-4">
+                "Ces affaires démontrent l'importance d'une réponse judiciaire ferme mais aussi de politiques de prévention ambitieuses", analyse Maître Dupont, avocat spécialisé en droit pénal.
+            </blockquote>
+            <p class="text-gray-700">
+                Le dossier a également mis en lumière les liens entre différents réseaux européens et l'évolution des modes opératoires des trafiquants pour échapper aux contrôles.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-4">InfoJustice</h3>
+                    <p class="text-gray-400 max-w-md">
+                        Site d'information juridique et judiciaire. Tous nos articles sont rédigés avec rigueur et respectent la présomption d'innocence.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-4">Mentions légales</h4>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#" class="hover:text-white">Charte éditoriale</a></li>
+                        <li><a href="#" class="hover:text-white">Protection des données</a></li>
+                        <li><a href="#" class="hover:text-white">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400 text-sm">
+                <p>© 2023 InfoJustice - Tous droits réservés</p>
+                <p class="mt-2">Cet article est purement informatif et ne constitue pas une incitation.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script for mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
